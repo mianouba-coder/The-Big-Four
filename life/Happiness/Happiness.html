@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .circle-container { height: 300px; display: flex; align-items: center; justify-content: center; }
+        .breathing-circle {
+            width: 100px; height: 100px; background: var(--accent);
+            border-radius: 50%; transition: all 4s ease-in-out;
+            box-shadow: 0 0 50px var(--accent);
+        }
+        .expand { width: 250px; height: 250px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="Happiness/Happiness.html" style="color: var(--accent)">← Back</a>
+        <h1>Box Breathing</h1>
+        <h2 id="instruction">Press Start</h2>
+        <div class="circle-container">
+            <div id="ball" class="breathing-circle"></div>
+        </div>
+        <button onclick="startBreathing()">Start Session</button>
+    </div>
+    <script src="Hap.js"></script>
+</body>
+</html>
