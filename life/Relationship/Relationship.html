@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Relationships | Social Pillar</title>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" style="color: var(--accent)">← Back to Hub</a>
+        <h1>Date Night Generator</h1>
+        <p>Stop overthinking. Just click and go.</p>
+        
+        <div class="card r-card" style="min-height: 150px; display: flex; align-items: center; justify-content: center;">
+            <h2 id="date-display">Ready for an adventure?</h2>
+        </div>
+        
+        <button onclick="generateDate()" style="background: var(--social); margin-top: 20px;">Spin the Wheel</button>
+
+        <hr style="margin: 40px 0; border: 0; border-top: 1px solid rgba(255,255,255,0.1);">
+
+        <h3>Relationship Milestone</h3>
+        <p>Time since we started this journey:</p>
+        <div id="milestone-counter" style="font-size: 1.2rem; font-weight: bold; color: var(--accent);"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
